@@ -1,3 +1,3 @@
 # SandRockDevAPiConsumer
 
-A simple WPF to consume a web API 
+A simple WPF demo to consume a web API 

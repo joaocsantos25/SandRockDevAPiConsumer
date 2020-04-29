@@ -1,0 +1,22 @@
+﻿<Window x:Class="DesportoBubistaWPF.MainSchedules"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DesportoBubistaWPF"
+        mc:Ignorable="d"
+        Title="MainSchedules" Height="450" Width="800">
+    <Grid>
+        <ListView x:Name="MainSchedulesListView" HorizontalAlignment="Left" Height="409" Margin="173,0,0,0" VerticalAlignment="Top" Width="609">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ID" Width="120" DisplayMemberBinding="{Binding ScheduleId}" />
+                    <GridViewColumn Header="Home Team" Width="150" DisplayMemberBinding="{Binding HomeClub.Name}" />
+                    <GridViewColumn Header="Away Team" Width="150" DisplayMemberBinding="{Binding AwayClub.Name}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="Button_LoadSchedule" Content="LoadSchedule" HorizontalAlignment="Left" Margin="54,147,0,0" VerticalAlignment="Top" Width="90" Height="30" Click="Button_LoadSchedule_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,24 @@
+﻿<Window x:Class="DesportoBubistaWPF.MainClub"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DesportoBubistaWPF"
+        mc:Ignorable="d"
+        Title="MainClub" Height="450" Width="800">
+    <Grid>
+        <Button Name="LoadAllCLub_Button" Content="Load All CLub" HorizontalAlignment="Left" Margin="54,62,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="LoadAllCLub_Button_Click"/>
+        <ListView Name="listViewClub" SelectionMode="Single" SelectionChanged="ListViewClub_SelectionChanged"
+                  HorizontalAlignment="Left" Height="382" Margin="223,27,0,0" VerticalAlignment="Top" Width="559">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Club ID" Width="50" DisplayMemberBinding="{Binding ClubId}" />
+                    <GridViewColumn Header="Name" Width="300" DisplayMemberBinding="{Binding Name}" />
+                    <GridViewColumn Header="SmallName" Width="150" DisplayMemberBinding="{Binding SmallName}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Image x:Name="clubimage" HorizontalAlignment="Left" Height="160" Margin="25,142,0,0" VerticalAlignment="Top" Width="173"/>
+
+    </Grid>
+</Window>

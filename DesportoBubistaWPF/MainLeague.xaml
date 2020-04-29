@@ -1,0 +1,23 @@
+﻿<Window x:Class="DesportoBubistaWPF.MainLeague"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DesportoBubistaWPF"
+        mc:Ignorable="d"
+        Title="MainLeague" Height="450" Width="800">
+    <Grid>
+        <ListView Name="listViewLeague" HorizontalAlignment="Left" Height="409" Margin="198,0,0,0" VerticalAlignment="Top" Width="584">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ID" Width="120" DisplayMemberBinding="{Binding LeagueId}" />
+                    <GridViewColumn Header="Name" Width="50" DisplayMemberBinding="{Binding Name}" />
+                    <GridViewColumn Header="Info" Width="150" DisplayMemberBinding="{Binding LeagueInfo}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Name="LoadAllLeague_Button" Content="Load All" HorizontalAlignment="Left" Margin="63,63,0,0" VerticalAlignment="Top" Width="90"  Height="30" Click="LoadAllLeague_Button_Click" />
+        <Button Name="LoadActiveLeague_Button" Content="Load Active" HorizontalAlignment="Left" Margin="63,144,0,0" VerticalAlignment="Top" Width="90" Height="30" Click="LoadActiveLeague_Button_Click" />
+
+    </Grid>
+</Window>

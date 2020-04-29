@@ -1,0 +1,9 @@
+C:\Users\sand\Documents\Visual Studio 2019\Projects\DespostoBubistaAPiConsumer\SandRockDevAPILibrary\bin\Debug\netstandard2.0\SandRockDevAPILibrary.deps.json
+C:\Users\sand\Documents\Visual Studio 2019\Projects\DespostoBubistaAPiConsumer\SandRockDevAPILibrary\bin\Debug\netstandard2.0\SandRockDevAPILibrary.dll
+C:\Users\sand\Documents\Visual Studio 2019\Projects\DespostoBubistaAPiConsumer\SandRockDevAPILibrary\obj\Debug\netstandard2.0\SandRockDevAPILibrary.csprojAssemblyReference.cache
+C:\Users\sand\Documents\Visual Studio 2019\Projects\DespostoBubistaAPiConsumer\SandRockDevAPILibrary\obj\Debug\netstandard2.0\SandRockDevAPILibrary.csproj.CoreCompileInputs.cache
+C:\Users\sand\Documents\Visual Studio 2019\Projects\DespostoBubistaAPiConsumer\SandRockDevAPILibrary\obj\Debug\netstandard2.0\SandRockDevAPILibrary.AssemblyInfoInputs.cache
+C:\Users\sand\Documents\Visual Studio 2019\Projects\DespostoBubistaAPiConsumer\SandRockDevAPILibrary\obj\Debug\netstandard2.0\SandRockDevAPILibrary.AssemblyInfo.cs
+C:\Users\sand\Documents\Visual Studio 2019\Projects\DespostoBubistaAPiConsumer\SandRockDevAPILibrary\bin\Debug\netstandard2.0\SandRockDevAPILibrary.pdb
+C:\Users\sand\Documents\Visual Studio 2019\Projects\DespostoBubistaAPiConsumer\SandRockDevAPILibrary\obj\Debug\netstandard2.0\SandRockDevAPILibrary.dll
+C:\Users\sand\Documents\Visual Studio 2019\Projects\DespostoBubistaAPiConsumer\SandRockDevAPILibrary\obj\Debug\netstandard2.0\SandRockDevAPILibrary.pdb
